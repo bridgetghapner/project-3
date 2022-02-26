@@ -15,8 +15,8 @@ nav#mainnav ul {
 nav {
 	background-color: coral;
 	width: 100%;
-	padding: 15px;
-	margin: 15px;
+	padding: 25px;
+	margin: 0px 0px 25px 0px;
 }
 
 #mainnav li {
