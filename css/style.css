@@ -1,4 +1,4 @@
-#mainnav {
+nav#mainnav {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -6,8 +6,15 @@
 	font-family: 'Merriweather', serif;
 }
 
+nav {
+	background-color:  antiquewhite;
+	width: 100%;
+	padding: 15px;
+}
+
 #mainnav li {
 	float: left;
+	padding: 15px;
 }
 
 
