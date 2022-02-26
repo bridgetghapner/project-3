@@ -2,6 +2,10 @@ body {
 	margin-left: 50px;
 }
 
+header {
+	background-color: cornsilk;
+	padding: 50px;
+}
 
 nav#mainnav ul {
 	list-style-type: none;
