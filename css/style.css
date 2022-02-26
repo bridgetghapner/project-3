@@ -1,12 +1,17 @@
-body {
-	padding-left: 10%;
-}
-
 header {
 	background-color: cornsilk;
 	padding: 50px;
 	margin-left: 0px !important;
 }
+
+#resume {
+	margin-left: 50px;
+}
+
+#education {
+	margin-left: 50px;
+}
+
 
 nav#mainnav ul {
 	list-style-type: none;
