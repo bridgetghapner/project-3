@@ -28,7 +28,7 @@ nav {
 h1 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
-	font-size: 4em;
+	font-size: 3em;
 	color: coral;
 }
 
@@ -36,20 +36,20 @@ h1 {
 h2 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 2em;
 	color: coral;
 }
 
 h3 {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 p {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 
