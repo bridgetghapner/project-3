@@ -7,21 +7,44 @@ nav#mainnav ul {
 }
 
 nav {
-	background-color:  antiquewhite;
+	background-color: coral;
 	width: 100%;
 	padding: 15px;
+	margin: 15px;
 }
 
 #mainnav li {
 	float: left;
 	padding: 15px;
+	color: antiquewhite;
 }
 
 
 h1 {
-	border-bottom: 1px solid red;
 	font-family: 'Merriweather', serif;
-	background-color: antiquewhite;
+	font-weight: 900;
+	font-size: 4em;
+	color: coral;
+}
+
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 3em;
+	color: coral;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 1em;
 }
 
 
