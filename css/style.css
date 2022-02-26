@@ -29,6 +29,11 @@ nav {
 	text-decoration: none;
 }
 
+#mainnav li a:hover {
+	color: midnightblue;
+	text-decoration: underline;
+}
+
 h1 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
