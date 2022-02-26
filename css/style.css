@@ -1,9 +1,15 @@
+body {
+	margin-left: 50px;
+}
+
+
 nav#mainnav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
 	font-family: 'Merriweather', serif;
+	margin-left: 0px !important;
 }
 
 nav {
