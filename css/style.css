@@ -5,6 +5,7 @@ body {
 header {
 	background-color: cornsilk;
 	padding: 50px;
+	margin-left: 0px !important;
 }
 
 nav#mainnav ul {
@@ -20,7 +21,6 @@ nav {
 	background-color: coral;
 	width: 100%;
 	padding: 25px;
-	margin: 0px 0px 25px 0px;
 }
 
 #mainnav li {
@@ -54,7 +54,7 @@ h3 {
 p {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.8em;
 }
 
 
