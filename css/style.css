@@ -1,6 +1,6 @@
 header {
 	background-color: cornsilk;
-	padding: 50px;
+	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
 }
 
@@ -20,6 +20,8 @@ nav#mainnav ul {
 	overflow: hidden;
 	font-family: 'Merriweather', serif;
 	margin-left: 0px !important;
+	text-align: center;
+	font-weight: 900;
 }
 
 nav {
