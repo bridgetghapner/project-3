@@ -22,7 +22,11 @@ nav {
 #mainnav li {
 	float: left;
 	padding: 15px;
+}
+
+#mainnav li a {
 	color: antiquewhite;
+	text-decoration: none;
 }
 
 h1 {
