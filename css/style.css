@@ -46,7 +46,7 @@ nav {
 }
 
 #mainnav li a:hover {
-	color: midnightblue;
+	color: darkred;
 	text-decoration: underline;
 }
 
@@ -85,11 +85,18 @@ ul {
 	line-height: 2em;
 }
 
-#linkedin-link {
+#linkedin-link a {
 	color: antiquewhite;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#linkedin-link a:hover {
+	color: darkred;
 	text-decoration: underline;
 	font-weight: 900;
 }
+
 
 
 
