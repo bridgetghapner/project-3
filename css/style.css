@@ -61,7 +61,7 @@ h2 {
 h3 {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 1.8em;
+	font-size: 1.4em;
 }
 
 p {
@@ -76,6 +76,12 @@ ul {
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 2em;
+}
+
+#linkedin-link {
+	color: antiquewhite;
+	text-decoration: underline;
+	font-weight: 900;
 }
 
 
