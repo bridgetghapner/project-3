@@ -1,3 +1,17 @@
+nav {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Merriweather', serif;
+}
+
+li {
+	float: left;
+}
+
+
 h1 {
 	border-bottom: 1px solid red;
+	font-family: 'Merriweather', serif;
 }
