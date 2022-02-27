@@ -22,6 +22,13 @@ nav#mainnav li {
 	margin: .5% .25% .5% .25%;
 	text-align: center;
 }
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 2em;
+	color: indigo;
+}
 }
 
 @media (max-width: 768px) {
@@ -30,6 +37,7 @@ nav#mainnav li {
 	padding: 2% 8% 2% 8%;
 	margin-left: 0px !important;
 	margin-bottom: 50px;
+	margin-top: .25%;
 	border-bottom: 1px solid indigo;
 }
 
@@ -42,9 +50,16 @@ h1 {
 
 nav#mainnav li {
 	float: left;
-	width: 98%;
-	margin: .5% .25% .5% .25%;
+	width: 100%;
+	margin: .25%;
 	text-align: center;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 1.4em;
+	color: indigo;
 }
 }
 
@@ -74,13 +89,6 @@ nav#mainnav ul li a:hover {
 	color: lavender;
 }
 
-
-h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 2em;
-	color: indigo;
-}
 
 h3 {
 	font-family: 'Merriweather', serif;
