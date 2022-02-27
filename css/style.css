@@ -1,12 +1,12 @@
 /*code for all pages*/
 
 body {
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 header {
 	background-color: lavender;
-	padding: 75px 50px 75px 50px;
+	padding: 5% 20% 5% 10%;
 	margin-left: 0px !important;
 	margin-bottom: 50px;
 	border-bottom: 1px solid indigo;
@@ -87,7 +87,7 @@ ol {
 }
 
 #resume, #education, #cat-information, #cat-photos, #travel-goals, #professional-goals {
-	margin: 75px 75px 0px 50px;	
+	padding: 5% 20% 5% 10%;	
 }
 
 
@@ -116,17 +116,9 @@ ol {
 /*code for learning-goals page only*/
 
 
-#why-have-goals {
-	background-color: lavender;
-	padding: 75px 200px 75px 50px;
-	margin-left: 0px !important;
-	margin-bottom: 50px;
-
-}
-
 #glacier-pic {
 	width: 100% !important;
-	margin: 50px 0px 50px 0px;
+	margin: 5% 0% 5% 0%;
 	border-top: 2px solid indigo;
 	border-bottom: 2px solid indigo;
 
