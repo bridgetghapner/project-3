@@ -45,7 +45,6 @@ nav {
 }
 
 #mainnav li a:hover {
-	color: lavender;
 	text-decoration: underline;
 }
 
@@ -91,9 +90,7 @@ ul {
 }
 
 #linkedin-link a:hover {
-	color: plum;
 	text-decoration: underline;
-	font-weight: 900;
 }
 
 
