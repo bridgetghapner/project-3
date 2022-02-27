@@ -9,6 +9,7 @@ header {
 	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
 	margin-bottom: 50px;
+	border-bottom: 1px solid indigo;
 }
 
 nav#mainnav ul {
@@ -60,8 +61,8 @@ h2 {
 
 h3 {
 	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	font-size: 1.4em;
+	font-weight: 900;
+	font-size: 1.2em;
 }
 
 p {
@@ -85,13 +86,12 @@ ol {
 	line-height: 2em;
 }
 
-#resume, #education, #cat-photos, #travel-goals, #professional-goals {
+#resume, #education, #cat-information, #cat-photos, #travel-goals, #professional-goals {
 	margin: 75px 75px 0px 50px;	
 }
 
 
 /*code for resume page only*/
-
 
 #linkedin-link a {
 	color: indigo;
@@ -106,14 +106,6 @@ ol {
 
 /*code for cat-information page only*/
 
-#cat-information {
-	background-color: lavender;
-	padding: 75px 50px 75px 50px;
-	margin-left: 0px !important;
-	margin-bottom: 50px;
-
-}
-
 #cat-pic {
 	width: 50%;
 	content-align: center;
@@ -126,7 +118,7 @@ ol {
 
 #why-have-goals {
 	background-color: lavender;
-	padding: 75px 50px 75px 50px;
+	padding: 75px 200px 75px 50px;
 	margin-left: 0px !important;
 	margin-bottom: 50px;
 
@@ -140,9 +132,12 @@ ol {
 
 }
 
-#glacier {
-	border-top: 2px solid indigo;
-	border-bottom: 2px solid indigo;
+#glacier-video {
+	background-color: lavender;
+	content-align: center;
+	padding: 100px;
+	border-top: 1px solid indigo;
+	border-top: 1px solid indigo;
 }
 
 
