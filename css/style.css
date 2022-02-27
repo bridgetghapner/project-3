@@ -212,17 +212,16 @@ ul#responsibilities {
 /*code for learning-goals page only*/
 
 
-#glacier-pic {
-	width: 100% !important;
-	margin: 5% 0% 5% 0%;
-	border-top: 8px solid indigo;
-	border-bottom: 4px solid indigo;
-
+#glacier-video-container {
+	background-color: lavender;
+	padding: 8% 1% 8% 1%;
+	text-align: center;
 }
+
 
 #glacier-video {
 	background-color: lavender;
-	width: 90%    !important;
-	margin: 0% 5% 0% 5%;
-	height: auto   !important;
+	width: 60%    !important;
+	margin: 0% 20% 0% 20%;
+	aspect-ratio: 1;
 }
