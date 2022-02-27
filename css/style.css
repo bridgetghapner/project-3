@@ -1,9 +1,5 @@
 /*code for all pages*/
 
-body {
-	margin-bottom: 10%;
-}
-
 header {
 	background-color: lavender;
 	padding: 5% 20% 5% 10%;
@@ -93,6 +89,10 @@ ol {
 
 /*code for resume page only*/
 
+body {
+	margin-bottom: 10%;
+}
+
 #linkedin-link a {
 	color: indigo;
 	text-decoration: none;
@@ -105,6 +105,10 @@ ol {
 
 
 /*code for cat-information page only*/
+
+body {
+	margin-bottom: 10%;
+}
 
 #cat-pic {
 	width: 50%;
@@ -127,11 +131,7 @@ ol {
 #glacier-video {
 	background-color: lavender;
 	content-align: center;
-	padding: 100px;
+	padding: 10% 0% 10% 0%;
 	border-top: 1px solid indigo;
 	border-top: 1px solid indigo;
 }
-
-
-
-
