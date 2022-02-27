@@ -186,8 +186,13 @@ ul#responsibilities {
 	flex-wrap: wrap;
 }
 
-#cat-photos h2, p {
+#cat-photos h2 {
 	padding: 0% 20% 0% 20%;
+}
+
+#photo-text {
+	padding: 0% 20% 0% 20%;
+	margin-bottom: 50px;
 }
 	
 }
@@ -204,8 +209,13 @@ ul#responsibilities {
 	flex-wrap: wrap;
 }
 
-#cat-photos h2, p{
+#cat-photos h2 {
 	padding: 2% 6% 2% 6%;
+}
+
+#photo-text {
+	padding: 2% 6% 2% 6%;
+	margin-bottom: 50px;
 }
 	
 }
