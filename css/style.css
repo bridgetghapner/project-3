@@ -5,7 +5,7 @@
 	background-color: lavender;
 	padding: 5% 20% 5% 10%;
 	margin-left: 0px !important;
-	margin-bottom: 50px;
+	margin-bottom: 2%;
 	border-bottom: 1px solid indigo;
 }
 
@@ -33,14 +33,23 @@ h2 {
 #resume, #education, #cat-information, #travel-goals, #professional-goals {
 	padding: 2% 20% 2% 20%;	
 }
+	
+	nav#mainnav ul li a {
+	text-decoration: none;
+	color: indigo;
+	padding: 20px;
+	display: block;
+	background-color: lavender;
+	border: 1px solid lavender;
+}
 }
 
 @media (max-width: 768px) {
 	header {
 	background-color: lavender;
-	padding: 2% 8% 2% 8%;
+	padding: 2% 6% 2% 6%;
 	margin-left: 0px !important;
-	margin-bottom: 50px;
+	margin-bottom: 4%;
 	margin-top: .25%;
 	border-bottom: 1px solid indigo;
 }
@@ -69,6 +78,15 @@ h2 {
 #resume, #education, #cat-information, #travel-goals, #professional-goals {
 	padding: 2% 6% 2% 6%;	
 }
+	
+	nav#mainnav ul li a {
+	text-decoration: none;
+	color: indigo;
+	padding: 10px;
+	display: block;
+	background-color: lavender;
+	border: 1px solid lavender;
+}
 }
 
 
@@ -80,15 +98,6 @@ nav#mainnav ul {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
 	background-color: white;
-}
-
-nav#mainnav ul li a {
-	text-decoration: none;
-	color: indigo;
-	padding: 20px;
-	display: block;
-	background-color: lavender;
-	border: 1px solid lavender;
 }
 
 nav#mainnav ul li a:hover {
