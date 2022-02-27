@@ -29,6 +29,10 @@ h2 {
 	font-size: 2em;
 	color: indigo;
 }
+
+#resume, #education, #cat-information, #travel-goals, #professional-goals {
+	padding: 2% 20% 2% 20%;	
+}
 }
 
 @media (max-width: 768px) {
@@ -60,6 +64,10 @@ h2 {
 	font-weight: 900;
 	font-size: 1.4em;
 	color: indigo;
+}
+
+#resume, #education, #cat-information, #travel-goals, #professional-goals {
+	padding: 2% 6% 2% 6%;	
 }
 }
 
@@ -116,10 +124,6 @@ ol {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
-}
-
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
-	padding: 2% 20% 2% 20%;	
 }
 
 
