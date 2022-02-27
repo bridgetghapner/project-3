@@ -6,6 +6,7 @@ header {
 	background-color: lavender;
 	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
+	margin-bottom: 50px;
 }
 
 #resume, #education, #cat-information, #cat-photos, #work-goals, #professional-goals {
