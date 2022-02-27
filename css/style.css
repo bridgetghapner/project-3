@@ -89,11 +89,6 @@ ol {
 
 
 /*code for resume page only*/
-
-body {
-	margin-bottom: 10%;
-}
-
 button#linkedin-link {
 	color: indigo;
 	text-decoration: none;
@@ -126,7 +121,7 @@ ul#responsibilities {
 
 #cat-photos {
 	background-color: lavender;	
-	padding: 5% 0% 5% 0%;
+	padding: 8% 0% 8% 0%;
 }
 
 
