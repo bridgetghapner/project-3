@@ -124,18 +124,27 @@ ul#responsibilities {
 
 /*code for cat-information page only*/
 
-body {
-	margin-bottom: 10%;
+#cat-photos {
+	background-color: lavender;	
+	padding: 5% 0% 5% 0%;
 }
 
-#cat-pic {
-	border: 1px solid indigo;
-	width: 100%;
-}
 
-.box {
+@media (max-width: 2000px) {
+	#cat-pic {
+		width: 31%;
+		object-fit: cover;
+		margin: 1%;
+		border-radius: 100%;
+		border: 2px solid indigo;
+}
+	
+	.box {
 	display: flex;
-	margin: 20px;
+	padding: 1%;
+	flex-wrap: wrap;
+}
+	
 }
 
 /*code for learning-goals page only*/
