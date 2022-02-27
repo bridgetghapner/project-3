@@ -2,9 +2,8 @@ body {
 	margin-bottom: 75px;
 }
 
-
 header {
-	background-color: cornsilk;
+	background-color: lavender;
 	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
 }
@@ -30,7 +29,7 @@ nav#mainnav ul {
 }
 
 nav {
-	background-color: coral;
+	background-color: indigo;
 	width: 100%;
 	padding: 25px;
 }
@@ -46,7 +45,7 @@ nav {
 }
 
 #mainnav li a:hover {
-	color: darkred;
+	color: lavender;
 	text-decoration: underline;
 }
 
@@ -54,7 +53,7 @@ h1 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
 	font-size: 4em;
-	color: coral;
+	color: indigo;
 }
 
 
@@ -62,7 +61,7 @@ h2 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
 	font-size: 2em;
-	color: coral;
+	color: indigo;
 }
 
 h3 {
@@ -92,7 +91,7 @@ ul {
 }
 
 #linkedin-link a:hover {
-	color: darkred;
+	color: lavender;
 	text-decoration: underline;
 	font-weight: 900;
 }
