@@ -35,16 +35,15 @@ nav#mainnav ul li a {
 }
 
 nav#mainnav ul li a:hover {
-	background-color: oldlace;
+	background-color: indigo;
 	border: 1px solid indigo;
-	color: indigo;
-	text-decoration: underline;
+	color: lavender;
 }
 
 h1 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
-	font-size: 4em;
+	font-size: 5em;
 	color: indigo;
 }
 
@@ -94,14 +93,27 @@ body {
 	margin-bottom: 10%;
 }
 
-#linkedin-link a {
+button#linkedin-link {
 	color: indigo;
 	text-decoration: none;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid indigo;
+	font-family: 'Merriweather', serif;
 	font-weight: 900;
+	background-color: lavender !important;
+	margin-top: 50px;
+	margin-bottom: 25px;
 }
 
-#linkedin-link a:hover {
-	text-decoration: underline;
+button#linkedin-link:hover {
+	border: 1px solid indigo;
+	background-color: indigo !important;
+	color: lavender;
+}
+
+ul#responsibilities {
+	margin-bottom: 50px;
 }
 
 
