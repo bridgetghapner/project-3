@@ -15,28 +15,30 @@ nav#mainnav ul {
 	overflow: hidden;
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
-	background-color: indigo;
-	padding: 25px;
+	background-color: white;
 }
 
 nav#mainnav li {
 	float: left;
-	margin: 0px 15px;
+	width: 32.75%;
+	margin: .5% .25% .5% .25%;
+	text-align: center;
 }
 
 nav#mainnav ul li a {
 	text-decoration: none;
-	color: lavender;
-	padding: 10px 80px 10px 80px;
+	color: indigo;
+	padding: 20px;
 	display: block;
-	border-radius: 10px;
+	background-color: lavender;
 	border: 1px solid lavender;
-	text-align: center;
 }
 
 nav#mainnav ul li a:hover {
-	background-color: lavender;
+	background-color: oldlace;
+	border: 1px solid indigo;
 	color: indigo;
+	text-decoration: underline;
 }
 
 h1 {
