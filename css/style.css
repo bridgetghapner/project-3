@@ -25,7 +25,6 @@ nav#mainnav ul {
 	overflow: hidden;
 	font-family: 'Merriweather', serif;
 	margin-left: 0px !important;
-	text-align: center;
 	font-weight: 900;
 }
 
@@ -33,6 +32,7 @@ nav {
 	background-color: indigo;
 	width: 100%;
 	padding: 25px;
+	text-align: center;
 }
 
 #mainnav li {
@@ -78,6 +78,14 @@ p {
 }
 
 ul {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+ol {
+	ul
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	font-size: 1em;
