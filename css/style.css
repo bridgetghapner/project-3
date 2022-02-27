@@ -116,6 +116,10 @@ ul#responsibilities {
 	margin-bottom: 50px;
 }
 
+#education-detail {
+	margin-bottom: 50px;
+}
+
 
 /*code for cat-information page only*/
 
@@ -129,6 +133,10 @@ body {
 	border: 1px solid indigo;
 }
 
+.box {
+	display: flex;
+}
+
 
 /*code for learning-goals page only*/
 
@@ -136,8 +144,8 @@ body {
 #glacier-pic {
 	width: 100% !important;
 	margin: 5% 0% 5% 0%;
-	border-top: 2px solid indigo;
-	border-bottom: 2px solid indigo;
+	border-top: 8px solid indigo;
+	border-bottom: 4px solid indigo;
 
 }
 
