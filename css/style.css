@@ -132,11 +132,30 @@ ul#responsibilities {
 
 @media (max-width: 2000px) {
 	#cat-pic {
-		width: 31%;
+		width: 27%;
 		object-fit: cover;
 		margin: 1%;
-		border-radius: 100%;
 		border: 2px solid indigo;
+		padding: 2%; 
+		background-color: lavender;
+}
+	
+	.box {
+	display: flex;
+	padding: 1%;
+	flex-wrap: wrap;
+}
+	
+}
+
+@media (max-width: 768px) {
+	#cat-pic {
+		width: 90%;
+		object-fit: cover;
+		margin: 1%;
+		border: 2px solid indigo;
+		padding: 2%; 
+		background-color: lavender;
 }
 	
 	.box {
