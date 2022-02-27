@@ -22,22 +22,26 @@ nav {
 	background-color: indigo;
 	width: 100%;
 	padding: 25px;
-	text-align: center;
 }
 
 #mainnav li {
 	float: left;
-	padding: 15px;
-	display: block;
 }
 
 #mainnav li a {
-	color: antiquewhite;
 	text-decoration: none;
+	color: indigo;
+	padding: 10px 80px 10px 80px;
+	display: block;
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background: white;
 }
 
 #mainnav li a:hover {
 	text-decoration: underline;
+	background-color: lavender;
 }
 
 h1 {
