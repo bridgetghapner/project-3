@@ -14,34 +14,29 @@ nav#mainnav ul {
 	margin: 0;
 	overflow: hidden;
 	font-family: 'Merriweather', serif;
-	margin-left: 0px !important;
 	font-weight: 900;
-}
-
-nav {
 	background-color: indigo;
-	width: 100%;
 	padding: 25px;
 }
 
-#mainnav li {
+nav#mainnav li {
 	float: left;
+	margin: 0px 15px;
 }
 
-#mainnav li a {
+nav#mainnav ul li a {
 	text-decoration: none;
-	color: indigo;
+	color: lavender;
 	padding: 10px 80px 10px 80px;
 	display: block;
-	margin: 10px;
 	border-radius: 10px;
-	border: 1px solid white;
-	background: white;
+	border: 1px solid lavender;
+	text-align: center;
 }
 
-#mainnav li a:hover {
-	text-decoration: underline;
+nav#mainnav ul li a:hover {
 	background-color: lavender;
+	color: indigo;
 }
 
 h1 {
