@@ -9,7 +9,7 @@ header {
 }
 
 #resume {
-	margin: 0px 75px 0px 50px;	
+	margin: 25px 75px 0px 50px;	
 }
 
 #education {
@@ -85,13 +85,13 @@ ul {
 }
 
 #linkedin-link a {
-	color: antiquewhite;
+	color: indigo;
 	text-decoration: none;
 	font-weight: 900;
 }
 
 #linkedin-link a:hover {
-	color: lavender;
+	color: plum;
 	text-decoration: underline;
 	font-weight: 900;
 }
