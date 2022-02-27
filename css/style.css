@@ -78,14 +78,13 @@ ul {
 }
 
 ol {
-	ul
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 2em;
 }
 
-#resume, #education, #cat-photos, #travel-goals {
+#resume, #education, #cat-photos, #travel-goals, #professional-goals {
 	margin: 25px 75px 0px 50px;	
 }
 
@@ -124,7 +123,7 @@ ol {
 /*code for learning-goals page only*/
 
 
-#professional-goals {
+#why-have-goals {
 	background-color: lavender;
 	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
@@ -133,8 +132,11 @@ ol {
 }
 
 #glacier-pic {
-	width: 100%;
+	width: 100% !important;
 	margin: 50px 0px 50px 0px;
+	border-top: 2px solid indigo;
+	border-bottom: 2px solid indigo;
+
 }
 
 #glacier {
