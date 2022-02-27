@@ -58,31 +58,32 @@ h2 {
 h3 {
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
-	font-size: 1.4em;
+	font-size: 1.2em;
+	line-height: 2em;
 }
 
 p {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	font-size: 1.2em;
-	line-height: 2.2em;
+	line-height: 2em;
 }
 
 ul {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 2em;
 }
 
 ol {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 2em;
 }
 
-#resume, #education, #cat-information, #cat-photos, #travel-goals, #professional-goals {
+#resume, #education, #cat-information, #travel-goals, #professional-goals {
 	padding: 2% 20% 2% 20%;	
 }
 
@@ -128,15 +129,14 @@ body {
 }
 
 #cat-pic {
-	width: 50%;
-	content-align: center;
 	border: 1px solid indigo;
+	width: 100%;
 }
 
 .box {
 	display: flex;
+	margin: 20px;
 }
-
 
 /*code for learning-goals page only*/
 
