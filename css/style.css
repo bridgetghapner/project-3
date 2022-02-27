@@ -179,7 +179,7 @@ ul#responsibilities {
 		object-fit: cover;
 		margin: 1%;
 		border: 2px solid indigo;
-		padding: 2%; 
+		padding: 1%; 
 		background-color: lavender;
 }
 	
@@ -197,7 +197,7 @@ ul#responsibilities {
 		object-fit: cover;
 		margin: 1%;
 		border: 2px solid indigo;
-		padding: 2%; 
+		padding: 1%; 
 		background-color: lavender;
 }
 	
@@ -222,8 +222,7 @@ ul#responsibilities {
 
 #glacier-video {
 	background-color: lavender;
-	content-align: center;
-	padding: 10% 0% 10% 0%;
-	border-top: 1px solid indigo;
-	border-top: 1px solid indigo;
+	width: 90%    !important;
+	margin: 0% 5% 0% 5%;
+	height: auto   !important;
 }
