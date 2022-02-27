@@ -9,7 +9,23 @@ header {
 	margin-bottom: 50px;
 }
 
-#resume, #education, #cat-information, #cat-photos, #work-goals, #professional-goals {
+#professional-goals {
+	background-color: lavender;
+	padding: 75px 50px 75px 50px;
+	margin-left: 0px !important;
+	margin-bottom: 50px;
+
+}
+
+#cat-information {
+	background-color: lavender;
+	padding: 75px 50px 75px 50px;
+	margin-left: 0px !important;
+	margin-bottom: 50px;
+
+}
+
+#resume, #education, #cat-photos, #travel-goals {
 	margin: 25px 75px 0px 50px;	
 }
 
@@ -17,7 +33,6 @@ header {
 	border-top: 2px solid indigo;
 	border-bottom: 2px solid indigo;
 }
-
 
 nav#mainnav ul {
 	list-style-type: none;
