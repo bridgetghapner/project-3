@@ -1,3 +1,5 @@
+/*code for all pages*/
+
 body {
 	margin-bottom: 100px;
 }
@@ -7,31 +9,6 @@ header {
 	padding: 75px 50px 75px 50px;
 	margin-left: 0px !important;
 	margin-bottom: 50px;
-}
-
-#professional-goals {
-	background-color: lavender;
-	padding: 75px 50px 75px 50px;
-	margin-left: 0px !important;
-	margin-bottom: 50px;
-
-}
-
-#cat-information {
-	background-color: lavender;
-	padding: 75px 50px 75px 50px;
-	margin-left: 0px !important;
-	margin-bottom: 50px;
-
-}
-
-#resume, #education, #cat-photos, #travel-goals {
-	margin: 25px 75px 0px 50px;	
-}
-
-#glacier {
-	border-top: 2px solid indigo;
-	border-bottom: 2px solid indigo;
 }
 
 nav#mainnav ul {
@@ -108,6 +85,14 @@ ol {
 	line-height: 2em;
 }
 
+#resume, #education, #cat-photos, #travel-goals {
+	margin: 25px 75px 0px 50px;	
+}
+
+
+/*code for resume page only*/
+
+
 #linkedin-link a {
 	color: indigo;
 	text-decoration: none;
@@ -116,6 +101,45 @@ ol {
 
 #linkedin-link a:hover {
 	text-decoration: underline;
+}
+
+
+/*code for cat-information page only*/
+
+#cat-information {
+	background-color: lavender;
+	padding: 75px 50px 75px 50px;
+	margin-left: 0px !important;
+	margin-bottom: 50px;
+
+}
+
+#cat-pic {
+	width: 50%;
+	content-align: center;
+	border: 1px solid indigo;
+}
+
+
+/*code for learning-goals page only*/
+
+
+#professional-goals {
+	background-color: lavender;
+	padding: 75px 50px 75px 50px;
+	margin-left: 0px !important;
+	margin-bottom: 50px;
+
+}
+
+#glacier-pic {
+	width: 100%;
+	margin: 50px 0px 50px 0px;
+}
+
+#glacier {
+	border-top: 2px solid indigo;
+	border-bottom: 2px solid indigo;
 }
 
 
