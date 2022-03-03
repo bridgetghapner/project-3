@@ -233,13 +233,11 @@ button#linkedin-link:hover {
 
 #glacier-video {
   width: 80% !important;
-  aspect-ratio: 1;
   justify-content: center;
 }
 
 @media (max-width: 768px) {
   #glacier-video {
   width: 95% !important;
-  aspect-ratio: 1;
 }
 }
