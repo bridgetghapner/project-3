@@ -172,8 +172,6 @@ ul#responsibilities {
 	padding: 5% 0% 10% 0%;
 }
 
-
-@media (max-width: 4000px) {
 	#cat-pic {
 		width: 32.75%;
 		object-fit: cover;
@@ -193,8 +191,6 @@ ul#responsibilities {
 #photo-text {
 	padding: 0% 20% 0% 20%;
 	margin-bottom: 50px;
-}
-	
 }
 
 @media (max-width: 768px) {
