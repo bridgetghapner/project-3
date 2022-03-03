@@ -172,7 +172,7 @@ button#linkedin-link:hover {
 }
 
 .cat-pic {
-  idth: 26%;
+  width: 26%;
   object-fit: cover;
   margin: 1%;
   border-radius: 2em;
