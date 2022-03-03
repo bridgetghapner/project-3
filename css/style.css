@@ -1,11 +1,9 @@
 /*code for all pages*/
-
-@media (max-width: 4000px) {
-	header {
+header {
 	background-color: lavender;
 	padding: 5% 20% 5% 10%;
 	margin-left: 0px !important;
-	margin-bottom: 2%;
+	margin-bottom: 5em;
 	border-bottom: 1px solid indigo;
 }
 
@@ -37,58 +35,11 @@ h2 {
 	nav#mainnav ul li a {
 	text-decoration: none;
 	color: indigo;
-	padding: 20px;
+	padding: .25%;
 	display: block;
 	background-color: lavender;
 	border: 1px solid lavender;
 }
-}
-
-@media (max-width: 768px) {
-	header {
-	background-color: lavender;
-	padding: 2% 6% 2% 6%;
-	margin-left: 0px !important;
-	margin-bottom: 4%;
-	margin-top: .25%;
-	border-bottom: 1px solid indigo;
-}
-
-h1 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 3em;
-	color: indigo;
-}
-
-nav#mainnav li {
-	float: left;
-	width: 100%;
-	margin: .25%;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 1.4em;
-	color: indigo;
-}
-
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
-	padding: 2% 6% 2% 6%;	
-}
-	
-	nav#mainnav ul li a {
-	text-decoration: none;
-	color: indigo;
-	padding: 10px;
-	display: block;
-	background-color: lavender;
-	border: 1px solid lavender;
-}
-}
-
 
 nav#mainnav ul {
 	list-style-type: none;
@@ -143,14 +94,13 @@ ol {
 button#linkedin-link {
 	color: indigo;
 	text-decoration: none;
-	padding: 20px;
-	border-radius: 8px;
+	padding: .25%;
+	border-radius: 4em;
 	border: 1px solid indigo;
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
 	background-color: lavender !important;
-	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-top: 2% 0% 2% 0%;
 }
 
 button#linkedin-link:hover {
@@ -159,9 +109,52 @@ button#linkedin-link:hover {
 	color: lavender;
 }
 
+@media (max-width: 768px) {
+	header {
+	background-color: lavender;
+	padding: 2% 6% 2% 6%;
+	margin-left: 0px !important;
+	margin-bottom: 4%;
+	margin-top: .25%;
+	border-bottom: 1px solid indigo;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 3em;
+	color: indigo;
+}
+
+nav#mainnav li {
+	float: left;
+	width: 100%;
+	margin: .25%;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 1.4em;
+	color: indigo;
+}
+
+#resume, #education, #cat-information, #travel-goals, #professional-goals {
+	padding: 2% 6% 2% 6%;	
+}
+	
+	nav#mainnav ul li a {
+	text-decoration: none;
+	color: indigo;
+	padding: .25%;
+	display: block;
+	background-color: lavender;
+	border: 1px solid lavender;
+}
+}
 
 /*code for cat-information page only*/
-
 #cat-photos {
 	background-color: lavender;	
 	padding: 5% 0% 10% 0%;
@@ -185,7 +178,7 @@ button#linkedin-link:hover {
 
 #photo-text {
 	padding: 0% 20% 0% 20%;
-	margin-bottom: 50px;
+	margin-bottom: 5em;
 }
 
 @media (max-width: 768px) {
@@ -206,15 +199,12 @@ button#linkedin-link:hover {
 
 #photo-text {
 	padding: 2% 6% 2% 6%;
-	margin-bottom: 50px;
+	margin-bottom: 5em;
 }
 	
 }
 
-
 /*code for learning-goals page only*/
-
-
 #glacier-pic {
 	width: 100%;
 	border-top: 25px solid darkcyan;
