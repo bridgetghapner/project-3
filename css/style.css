@@ -3,7 +3,7 @@ header {
 	background-color: lavender;
 	padding: 5% 20% 5% 10%;
 	margin-left: 0px !important;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 	border-bottom: 1px solid indigo;
 }
 
@@ -86,7 +86,7 @@ ol {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
@@ -154,7 +154,11 @@ button#linkedin-link:hover {
 	color: lavender;
 }
 
-
+@media (max-width: 768px) {
+	button#linkedin-link {
+	margin: 6% 0% 10% 0%;
+}	
+}
 
 /*code for cat-information page only*/
 #cat-photos {
