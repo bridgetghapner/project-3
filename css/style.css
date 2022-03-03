@@ -1,7 +1,7 @@
 /*code for all pages*/
 header {
   background-color: lavender;
-  padding: 5% 10% 5% 10%;
+  padding: 6%;
   margin-left: 0px !important;
   margin-bottom: 2em;
   border-bottom: 1px solid indigo;
@@ -164,6 +164,7 @@ button#linkedin-link:hover {
 #cat-photos {
   background-color: lavender; 
   padding: 5% 0% 10% 0%;
+  border-top:  1px solid indigo;
 }
 
 #cat-photos h2 {
@@ -171,10 +172,12 @@ button#linkedin-link:hover {
 }
 
 .cat-pic {
-  width: 26%;
+  idth: 26%;
   object-fit: cover;
   margin: 1%;
-  border-radius: 12px;
+  border-radius: 2em;
+  background: linear-gradient(45deg, indigo, red, lavenderblush, blue);
+  padding: 1em;
 }
   
 .box {
