@@ -35,7 +35,7 @@ h2 {
 	nav#mainnav ul li a {
 	text-decoration: none;
 	color: indigo;
-	padding: .25%;
+	padding: 1em;
 	display: block;
 	background-color: lavender;
 	border: 1px solid lavender;
@@ -70,6 +70,7 @@ p {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
+	margin-bottom: 1em;
 }
 
 ul {
@@ -77,7 +78,7 @@ ul {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 ol {
@@ -88,28 +89,8 @@ ol {
 	margin-bottom: 5em;
 }
 
-
-/*code for resume page only*/
-button#linkedin-link {
-	color: indigo;
-	text-decoration: none;
-	padding: .25%;
-	border-radius: 4em;
-	border: 1px solid indigo;
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	background-color: lavender !important;
-	margin-top: 2% 0% 2% 0%;
-}
-
-button#linkedin-link:hover {
-	border: 1px solid indigo;
-	background-color: indigo !important;
-	color: lavender;
-}
-
 @media (max-width: 768px) {
-	header {
+header {
 	background-color: lavender;
 	padding: 2% 6% 2% 6%;
 	margin-left: 0px !important;
@@ -146,12 +127,34 @@ h2 {
 	nav#mainnav ul li a {
 	text-decoration: none;
 	color: indigo;
-	padding: .25%;
+	padding: 1em;
 	display: block;
 	background-color: lavender;
 	border: 1px solid lavender;
 }
 }
+
+
+/*code for resume page only*/
+button#linkedin-link {
+	color: indigo;
+	text-decoration: none;
+	padding: 1em;
+	border-radius: 4em;
+	border: 1px solid indigo;
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	background-color: lavender !important;
+	margin: 3% 0% 0% 0%;
+}
+
+button#linkedin-link:hover {
+	border: 1px solid indigo;
+	background-color: indigo !important;
+	color: lavender;
+}
+
+
 
 /*code for cat-information page only*/
 #cat-photos {
