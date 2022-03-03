@@ -119,6 +119,7 @@ p {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
+	margin-bottom: 5em;
 }
 
 ul {
@@ -126,6 +127,7 @@ ul {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
+	margin-bottom: 5em;
 }
 
 ol {
@@ -133,6 +135,7 @@ ol {
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 2em;
+	margin-bottom: 5em;
 }
 
 
@@ -156,14 +159,6 @@ button#linkedin-link:hover {
 	color: lavender;
 }
 
-ul#responsibilities {
-	margin-bottom: 75px;
-}
-
-#education-detail {
-	margin-bottom: 75px;
-}
-
 
 /*code for cat-information page only*/
 
@@ -172,7 +167,7 @@ ul#responsibilities {
 	padding: 5% 0% 10% 0%;
 }
 
-	#cat-pic {
+	.cat-pic {
 		width: 32.75%;
 		object-fit: cover;
 		margin: .25%;
@@ -194,7 +189,7 @@ ul#responsibilities {
 }
 
 @media (max-width: 768px) {
-	#cat-pic { 
+	.cat-pic { 
 		width: 100%;
 		object-fit: cover;
 		border-radius: 12px;
