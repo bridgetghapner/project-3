@@ -1,244 +1,242 @@
 /*code for all pages*/
 header {
-	background-color: lavender;
-	padding: 5% 20% 5% 10%;
-	margin-left: 0px !important;
-	margin-bottom: 2em;
-	border-bottom: 1px solid indigo;
+  background-color: lavender;
+  padding: 5% 10% 5% 10%;
+  margin-left: 0px !important;
+  margin-bottom: 2em;
+  border-bottom: 1px solid indigo;
 }
 
 h1 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 5em;
-	color: indigo;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 5em;
+  color: indigo;
 }
 
 nav#mainnav li {
-	float: left;
-	width: 32.75%;
-	margin: .5% .25% .5% .25%;
-	text-align: center;
+  float: left;
+  width: 32.75%;
+  margin: .5% .25% .5% .25%;
+  text-align: center;
 }
 
 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 2em;
-	color: indigo;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 2em;
+  color: indigo;
 }
 
 #resume, #education, #cat-information, #travel-goals, #professional-goals {
-	padding: 2% 20% 2% 20%;	
+  padding: 2% 20% 2% 20%; 
 }
-	
-	nav#mainnav ul li a {
-	text-decoration: none;
-	color: indigo;
-	padding: 1em;
-	display: block;
-	background-color: lavender;
-	border: 1px solid lavender;
+  
+  nav#mainnav ul li a {
+  text-decoration: none;
+  color: indigo;
+  padding: 1em;
+  display: block;
+  background-color: lavender;
+  border: 1px solid lavender;
 }
 
 nav#mainnav ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	background-color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  background-color: white;
 }
 
 nav#mainnav ul li a:hover {
-	background-color: indigo;
-	border: 1px solid indigo;
-	color: lavender;
+  background-color: indigo;
+  border: 1px solid indigo;
+  color: lavender;
 }
 
 
 h3 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 1.2em;
-	line-height: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 2em;
 }
 
 p {
-	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	font-size: 1.2em;
-	line-height: 2em;
-	margin-bottom: 1em;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 1em;
 }
 
 ul {
-	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	font-size: 1.2em;
-	line-height: 2em;
-	margin-bottom: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 2em;
 }
 
 ol {
-	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	font-size: 1.2em;
-	line-height: 2em;
-	margin-bottom: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
 header {
-	background-color: lavender;
-	padding: 2% 6% 2% 6%;
-	margin-left: 0px !important;
-	margin-bottom: 4%;
-	margin-top: .25%;
-	border-bottom: 1px solid indigo;
+  background-color: lavender;
+  padding: 2% 6% 2% 6%;
+  margin-left: 0px !important;
+  margin-bottom: 4%;
+  margin-top: .25%;
+  border-bottom: 1px solid indigo;
 }
 
 h1 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 3em;
-	color: indigo;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: indigo;
 }
 
 nav#mainnav li {
-	float: left;
-	width: 100%;
-	margin: .25%;
-	text-align: center;
+  float: left;
+  width: 100%;
+  margin: .25%;
+  text-align: center;
 }
 
 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	font-size: 1.4em;
-	color: indigo;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 1.4em;
+  color: indigo;
 }
 
 #resume, #education, #cat-information, #travel-goals, #professional-goals {
-	padding: 2% 6% 2% 6%;	
+  padding: 2% 6% 2% 6%; 
 }
-	
-	nav#mainnav ul li a {
-	text-decoration: none;
-	color: indigo;
-	padding: 1em;
-	display: block;
-	background-color: lavender;
-	border: 1px solid lavender;
+  
+  nav#mainnav ul li a {
+  text-decoration: none;
+  color: indigo;
+  padding: 1em;
+  display: block;
+  background-color: lavender;
+  border: 1px solid lavender;
 }
 }
 
 
 /*code for resume page only*/
 button#linkedin-link {
-	color: indigo;
-	text-decoration: none;
-	padding: 1em;
-	border-radius: 4em;
-	border: 1px solid indigo;
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	background-color: lavender !important;
-	margin: 3% 0% 0% 0%;
+  color: indigo;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 4em;
+  border: 1px solid indigo;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  background-color: lavender !important;
+  margin: 3% 0% 0% 0%;
 }
 
 button#linkedin-link:hover {
-	border: 1px solid indigo;
-	background-color: indigo !important;
-	color: lavender;
+  border: 1px solid indigo;
+  background-color: indigo !important;
+  color: lavender;
 }
 
 @media (max-width: 768px) {
-	button#linkedin-link {
-	margin: 6% 0% 10% 0%;
-}	
+  button#linkedin-link {
+  margin: 6% 0% 10% 0%;
+} 
 }
 
 /*code for cat-information page only*/
 #cat-photos {
-	background-color: lavender;	
-	padding: 5% 0% 10% 0%;
-}
-
-	.cat-pic {
-		width: 32.75%;
-		object-fit: cover;
-		margin: .25%;
-		border-radius: 12px;
-}
-	
-	.box {
-	display: flex;
-	flex-wrap: wrap;
+  background-color: lavender; 
+  padding: 5% 0% 10% 0%;
 }
 
 #cat-photos h2 {
-	padding: 0% 20% 0% 20%;
+  padding: 0% 20% 0% 20%;
+}
+
+.cat-pic {
+  width: 26%;
+  object-fit: cover;
+  margin: 1%;
+  border-radius: 12px;
+}
+  
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #photo-text {
-	padding: 0% 20% 0% 20%;
-	margin-bottom: 5em;
+  padding: 0% 20% 0% 20%;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
-	.cat-pic { 
-		width: 100%;
-		object-fit: cover;
-		border-radius: 12px;
+  .cat-pic { 
+    width: 90%;
+    object-fit: cover;
+    border-radius: 12px;
 }
-	
-	.box {
-	display: flex;
-	flex-wrap: wrap;
+  
+  .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #cat-photos h2 {
-	padding: 2% 6% 2% 6%;
+  padding: 2%;
 }
 
 #photo-text {
-	padding: 2% 6% 2% 6%;
-	margin-bottom: 5em;
+  padding: 2% 6% 2% 6%;
+  margin-bottom: 6em;
 }
-	
 }
 
 /*code for learning-goals page only*/
 #glacier-pic {
-	width: 100%;
-	border-top: 25px solid darkcyan;
-	border-bottom: 25px solid darkcyan;
+  width: 100%;
+  border-top: 50px solid darkcyan;
+  border-bottom: 10px solid darkcyan;
 }
 
 #glacier-video-container {
-	background-color: lightcyan;
-	padding: 8% 1% 8% 1%;
-	text-align: center;
+  background-color: lightcyan;
+  padding: 8% 1% 8% 1%;
+  text-align: center;
 }
 
 #glacier-video-container h2 {
-	color: darkcyan;
+  color: darkcyan;
 }
 
-@media (max-width: 4000px) {
-	#glacier-video {
-	width: 80%    !important;
-	margin: 0% 10% 0% 10%;
-	aspect-ratio: 1;
-}
+#glacier-video {
+  width: 80% !important;
+  aspect-ratio: 1;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-	#glacier-video {
-	width: 100%    !important;
-	margin: 0;
-	aspect-ratio: 1;
+  #glacier-video {
+  width: 95% !important;
+  aspect-ratio: 1;
 }
 }
