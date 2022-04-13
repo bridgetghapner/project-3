@@ -253,6 +253,7 @@ button#linkedin-link:hover {
 /*code for map page*/
 
 #map {
-  height: 900px;
+  height: 100vh;
   width: 100%;
+  border-top: 1px solid goldenrod;
 }
