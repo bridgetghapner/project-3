@@ -263,11 +263,13 @@ button#linkedin-link:hover {
 }
 
 .map-link a {
-  color: #B3DDF2 !important;
-  background-color: rgba(255, 0, 0, .7) !important;
+  background-color: #B3DDF2 !important;
+  color: rgba(255, 0, 0, .7) !important;
+  border: 1px solid rgba(255, 0, 0, .7) !important;
 }
 
 .map-link a:hover {
   border: 1px solid rgba(255, 0, 0) !important;
   background-color: rgba(255, 0, 0) !important;
+  color: #fff !important;
 }
