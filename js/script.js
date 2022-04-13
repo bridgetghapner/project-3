@@ -2,11 +2,18 @@
 function initMap() {
   const chicago = { lat: 41.8781, lng: -87.6298 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 10,
+    zoom: 11,
     center: chicago,
   });
+
+  var icon = {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago-style_hot_dog_2.jpg/1200px-Chicago-style_hot_dog_2.jpg",
+    scaledSize: new google.maps.Size(100, 100),
+  };
+
   const marker = new google.maps.Marker({
     position: chicago,
     map: map,
+    icon: icon,
   });
 }
