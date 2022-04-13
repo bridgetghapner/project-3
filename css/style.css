@@ -251,9 +251,23 @@ button#linkedin-link:hover {
 }
 
 /*code for map page*/
+#map-information {
+  text-align: center;
+  padding: 2em 0em 2em 0em;
+}
 
 #map {
   height: 100vh;
   width: 100%;
-  border-top: 1px solid goldenrod;
+  border-top: 1px solid indigo;
+}
+
+.map-link a {
+  color: #B3DDF2 !important;
+  background-color: rgba(255, 0, 0, .7) !important;
+}
+
+.map-link a:hover {
+  border: 1px solid rgba(255, 0, 0) !important;
+  background-color: rgba(255, 0, 0) !important;
 }
