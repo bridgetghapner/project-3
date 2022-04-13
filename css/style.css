@@ -249,3 +249,10 @@ button#linkedin-link:hover {
     width: 95% !important;
   }
 }
+
+/*code for map page*/
+
+#map {
+  height: 900px;
+  width: 100%;
+}
