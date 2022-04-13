@@ -16,7 +16,7 @@ h1 {
 
 nav#mainnav li {
   float: left;
-  width: 32.75%;
+  width: 24.5%;
   margin: .5% .25% .5% .25%;
   text-align: center;
 }
@@ -28,11 +28,15 @@ h2 {
   color: indigo;
 }
 
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
-  padding: 2% 20% 2% 20%; 
+#resume,
+#education,
+#cat-information,
+#travel-goals,
+#professional-goals {
+  padding: 2% 20% 2% 20%;
 }
-  
-  nav#mainnav ul li a {
+
+nav#mainnav ul li a {
   text-decoration: none;
   color: indigo;
   padding: 1em;
@@ -90,48 +94,52 @@ ol {
 }
 
 @media (max-width: 768px) {
-header {
-  background-color: lavender;
-  padding: 2% 6% 2% 6%;
-  margin-left: 0px !important;
-  margin-bottom: 4%;
-  margin-top: .25%;
-  border-bottom: 1px solid indigo;
-}
+  header {
+    background-color: lavender;
+    padding: 2% 6% 2% 6%;
+    margin-left: 0px !important;
+    margin-bottom: 4%;
+    margin-top: .25%;
+    border-bottom: 1px solid indigo;
+  }
 
-h1 {
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
-  font-size: 3em;
-  color: indigo;
-}
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: indigo;
+  }
 
-nav#mainnav li {
-  float: left;
-  width: 100%;
-  margin: .25%;
-  text-align: center;
-}
+  nav#mainnav li {
+    float: left;
+    width: 100%;
+    margin: .25%;
+    text-align: center;
+  }
 
-h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
-  font-size: 1.4em;
-  color: indigo;
-}
+  h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: indigo;
+  }
 
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
-  padding: 2% 6% 2% 6%; 
-}
-  
+  #resume,
+  #education,
+  #cat-information,
+  #travel-goals,
+  #professional-goals {
+    padding: 2% 6% 2% 6%;
+  }
+
   nav#mainnav ul li a {
-  text-decoration: none;
-  color: indigo;
-  padding: 1em;
-  display: block;
-  background-color: lavender;
-  border: 1px solid lavender;
-}
+    text-decoration: none;
+    color: indigo;
+    padding: 1em;
+    display: block;
+    background-color: lavender;
+    border: 1px solid lavender;
+  }
 }
 
 
@@ -156,15 +164,15 @@ button#linkedin-link:hover {
 
 @media (max-width: 768px) {
   button#linkedin-link {
-  margin: 6% 0% 10% 0%;
-} 
+    margin: 6% 0% 10% 0%;
+  }
 }
 
 /*code for cat-information page only*/
 #cat-photos {
-  background-color: lavender; 
+  background-color: lavender;
   padding: 5% 0% 10% 0%;
-  border-top:  1px solid indigo;
+  border-top: 1px solid indigo;
 }
 
 #cat-photos h2 {
@@ -179,7 +187,7 @@ button#linkedin-link:hover {
   background: linear-gradient(45deg, indigo, red, lavenderblush, blue);
   padding: 1em;
 }
-  
+
 .box {
   display: flex;
   flex-wrap: wrap;
@@ -192,26 +200,26 @@ button#linkedin-link:hover {
 }
 
 @media (max-width: 768px) {
-  .cat-pic { 
+  .cat-pic {
     width: 90%;
     object-fit: cover;
     border-radius: 12px;
-}
-  
+  }
+
   .box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-#cat-photos h2 {
-  padding: 2%;
-}
+  #cat-photos h2 {
+    padding: 2%;
+  }
 
-#photo-text {
-  padding: 2% 6% 2% 6%;
-  margin-bottom: 6em;
-}
+  #photo-text {
+    padding: 2% 6% 2% 6%;
+    margin-bottom: 6em;
+  }
 }
 
 /*code for learning-goals page only*/
@@ -238,6 +246,6 @@ button#linkedin-link:hover {
 
 @media (max-width: 768px) {
   #glacier-video {
-  width: 95% !important;
-}
+    width: 95% !important;
+  }
 }
