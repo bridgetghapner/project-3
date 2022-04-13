@@ -273,3 +273,10 @@ button#linkedin-link:hover {
   background-color: rgba(255, 0, 0) !important;
   color: #fff !important;
 }
+
+@media (max-width: 768px) {
+  #map {
+    width: 80%;
+    margin: auto;
+  }
+}
